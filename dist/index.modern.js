@@ -9,6 +9,13 @@ const ExampleComponent = ({
     className: styles.test
   }, "Example Component: ", text);
 };
+const ExampleComponent1 = ({
+  text
+}) => {
+  return /*#__PURE__*/React.createElement("div", {
+    className: styles.test
+  }, "Example Component 1: ", text);
+};
 
-export { ExampleComponent };
+export { ExampleComponent, ExampleComponent1 };
 //# sourceMappingURL=index.modern.js.map

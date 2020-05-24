@@ -1,10 +1,15 @@
-import React from 'react'
+import React from 'react';
 
-import { ExampleComponent } from 'react-common-components'
-import 'react-common-components/dist/index.css'
+import { ExampleComponent, ExampleComponent1 } from 'react-common-components';
+import 'react-common-components/dist/index.css';
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
-}
+  return (
+    <div>
+      <ExampleComponent text="Create React Library Example 😄" />
+      <ExampleComponent1 text="Create React Library Example 1 😄" />
+    </div>
+  );
+};
 
-export default App
+export default App;
